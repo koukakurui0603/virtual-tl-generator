@@ -1,0 +1,16 @@
+{
+  "name": "virtual-tl-generator",
+  "version": "1.0.0",
+  "description": "生成AI APIとDiscord Webhookを使った深夜貯蓄・日中放流型の仮想タイムライン生成システム",
+  "type": "module",
+  "main": "ecocute_tl.mjs",
+  "scripts": {
+    "start": "node ecocute_tl.mjs"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.7.9",
+    "discord.js": "^14.16.3"
+  },
+  "license": "MIT"
+}
